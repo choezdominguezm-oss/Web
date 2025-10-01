@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto Diseño Web - Tecnologías Emergentes</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+<!-- HEADER -->
+<header class="bg-gray-800 text-white p-6">
+  <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
+    <h1 class="text-3xl font-bold mb-4 md:mb-0">Tecnologías Emergentes</h1>
+    <nav>
+      <ul class="flex flex-wrap gap-4 text-white font-medium">
+        <li><a href="#main" class="hover:text-yellow-400">Inicio</a></li>
+        <li><a href="#seccion-ia" class="hover:text-yellow-400">IA</a></li>
+        <li><a href="#seccion-machine" class="hover:text-yellow-400">Machine Learning</a></li>
+        <li><a href="#seccion-tecnologia-emergentes" class="hover:text-yellow-400">Tecnologías</a></li>
+        <li><a href="#seccion-tendencias" class="hover:text-yellow-400">Tendencias 2025</a></li>
+        <li><a href="#contacto" class="hover:text-yellow-400">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- MAIN -->
+<main id="main" class="max-w-6xl mx-auto px-4 py-8 space-y-12">
+
+  <!-- INTRODUCCIÓN -->
+  <section id="introduccion" class="text-center space-y-4">
+    <h2 class="text-3xl font-bold">¡Bienvenidos!</h2>
+    <p>Un portal creado por el equipo para explorar Inteligencia Artificial, Machine Learning y otras tecnologías que están transformando 2025. Aquí encontrarás artículos, vídeos y recursos educativos.</p>
+    <img src="tendencias-tecnologicas.jpg" alt="internet y IA" class="mx-auto rounded shadow-lg w-full max-w-md" loading="lazy">
+  </section>
+
+  <!-- EQUIPO -->
+  <section id="equipo" class="space-y-6">
+    <h2 class="text-2xl font-bold text-center">Nuestro Equipo</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <figure class="bg-white p-4 rounded-lg shadow text-center">
+        <img src="karla.jpg" alt="Karla Ivette Chóez Muñiz" class="mx-auto rounded-full w-40 h-40 mb-4" loading="lazy">
+        <figcaption>
+          <h3 class="font-semibold text-lg">Karla Ivette Chóez Muñiz</h3>
+          <p class="text-sm text-gray-600">Directora en investigación de casos de uso y edición de imágenes para el portal.</p>
+        </figcaption>
+      </figure>
+      <figure class="bg-white p-4 rounded-lg shadow text-center">
+        <img src="mayerly.jpg" alt="Mayerly Maylee Chóez Domínguez" class="mx-auto rounded-full w-40 h-40 mb-4" loading="lazy">
+        <figcaption>
+          <h3 class="font-semibold text-lg">Mayerly Maylee Chóez Domínguez</h3>
+          <p class="text-sm text-gray-600">Encargada de la estructura HTML del sitio web.</p>
+        </figcaption>
+      </figure>
+      <figure class="bg-white p-4 rounded-lg shadow text-center">
+        <img src="gabriel.jpg" alt="Gabriel Romario Mendoza Barzallo" class="mx-auto rounded-full w-40 h-40 mb-4" loading="lazy">
+        <figcaption>
+          <h3 class="font-semibold text-lg">Gabriel Romario Mendoza Barzallo</h3>
+          <p class="text-sm text-gray-600">Encargado de la estructura HTML y optimización del sitio web.</p>
+        </figcaption>
+      </figure>
+      <figure class="bg-white p-4 rounded-lg shadow text-center">
+        <img src="andres.jpg" alt="Andres Abel Mendoza Barzallo" class="mx-auto rounded-full w-40 h-40 mb-4" loading="lazy">
+        <figcaption>
+          <h3 class="font-semibold text-lg">Andres Abel Mendoza Barzallo</h3>
+          <p class="text-sm text-gray-600">Apoyo en investigación de casos de uso y edición de imágenes para el portal.</p>
+        </figcaption>
+      </figure>
+      <figure class="bg-white p-4 rounded-lg shadow text-center">
+        <img src="jean.jpg" alt="Jean Pierre Torres Guilindro" class="mx-auto rounded-full w-40 h-40 mb-4" loading="lazy">
+        <figcaption>
+          <h3 class="font-semibold text-lg">Jean Pierre Torres Guilindro</h3>
+          <p class="text-sm text-gray-600">Encargado de la sección de Machine Learning.</p>
+        </figcaption>
+      </figure>
+      <figure class="bg-white p-4 rounded-lg shadow text-center">
+        <img src="ana.jpg" alt="Ana Estefanía Guanotuña" class="mx-auto rounded-full w-40 h-40 mb-4" loading="lazy">
+        <figcaption>
+          <h3 class="font-semibold text-lg">Ana Estefanía Guanotuña</h3>
+          <p class="text-sm text-gray-600">Responsable de la sección de Inteligencia Artificial y redacción de contenidos técnicos.</p>
+        </figcaption>
+      </figure>
+      <figure class="bg-white p-4 rounded-lg shadow text-center">
+        <img src="samantha.jpg" alt="Arianna Samantha Matute Carbo" class="mx-auto rounded-full w-40 h-40 mb-4" loading="lazy">
+        <figcaption>
+          <h3 class="font-semibold text-lg">Arianna Samantha Matute Carbo</h3>
+          <p class="text-sm text-gray-600">Responsable del aspecto visual y psicología del color de la página.</p>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- INTELIGENCIA ARTIFICIAL -->
+  <section id="seccion-ia" class="space-y-6">
+    <h2 class="text-2xl font-bold">Inteligencia Artificial (IA)</h2>
+
+    <h3 class="text-xl font-semibold">¿Qué es la IA?</h3>
+    <p>La Inteligencia <A>rtificial (IA) es un campo de la infromación que se enfoca en el desarrollo de sistemas y programas capaces de realizar tareas que han requerido de la inteligencia humana.</p>
+    <p>La IA es un conjunto de tecnologías que permite que las máquinas:</p>
+    <ol class="list-decimal list-inside space-y-1">
+      <li><strong>Percibir</strong> su entorno mediante la adquisición e interpretación de datos.</li>
+      <li><strong>Razonar y procesar</strong> esa información.</li>
+      <li><strong>Tomar decisiones</strong> o ejecutar acciones para lograr un objetivo dado.</li>
+    </ol>
+
+    <h3 class="text-xl font-semibold">Tipos de IA</h3>
+	<figure class="my-4">
+      	<img src="IA.png" alt="Ilustración IA" class="mx-auto rounded shadow-lg w-full max-w-sm" loading="lazy">
+    	</figure>
+    <div class="overflow-x-auto">
+      <table class="min-w-full bg-white rounded-lg shadow divide-y divide-gray-200 table-auto">
+        <thead class="bg-gray-100">
+          <tr>
+            <th class="px-4 py-2">IA débil o estrecha (ANI)</th>
+            <th class="px-4 py-2">IA general (AGI)</th>
+            <th class="px-4 py-2">Superinteligencia Artificial (ASI)</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-gray-200">
+          <tr>
+            <td class="px-4 py-2">Es la que existe actualmente. Está diseñada y entrenada para realizar una tarea específica (Ejemplo: Siri, sistema de recomendación, un bot de ajedrez). No posee conciencia ni inteligencia general.</td>
+            <td class="px-4 py-2">Es una IA hipotética que poseería la capacidad de comprender, apender y aplicar su inteligencia para resolver cualquier problema, tal como lo haría un ser humano.</td>
+            <td class="px-4 py-2">Es una IA hipotética que superaría con creces la inteligencia humana en todos los aspectos, incluyendo la cretividad, la resolución de problemas y las habilidades sociales.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 class="text-xl font-semibold">Aplicaciones actuales</h3>
+    <ul class="list-disc list-inside space-y-1">
+      <li><strong>Experiencia del cliente:</strong> Asistentes virtuales, chatbots y sistemas recomendados.</li>
+      <li><strong>Salud y medicina:</strong> Diagnóstico e investigación.</li>
+      <li><strong>Finanzas:</strong> Detección de fraude y modelado predictivo.</li>
+      <li><strong>IA generativa:</strong> Creación de contenido original.</li>
+    </ul>
+  </section>
+
+  <!-- Machine Learning -->
+  <section id="seccion-machine" class="space-y-6">
+    <h2 class="text-2xl font-bold">Machine Learning (Aprendizaje Automático)</h2>
+    <h3 class="text-xl font-semibold">Fundamentos</h3>
+    <figure class="my-4">
+      <img src="Machine_Learning.jpg" alt="Machine Learning" class="mx-auto rounded shadow-lg w-full max-w-sm" loading="lazy">
+    </figure>
+    <p>
+	El Machine Learning (ML) es una rama de la Inteligencia Artificial (IA) cuyo objetivo es que las máquinas aprendan de los datos.<br> 
+              sin ser programadas explícitamente. Los sistemas de ML utilizan modelos matemáticos y estadísticas para encontrar patrones y <br> 
+              relaciones en grandes conjuntos de datos, permitiéndoles adaptarse, hacer predicciones y mejorar su rendimiento con el tiempo.<br>
+	</p>
+    <h2 class="text-2xl font-semibold">Algortimos Principales</h2>
+    <div class="overflow-x-auto">
+    <h4 class="text-xl font-semibold">Tipos de Aprendizaje</h4>
+      <table class="min-w-full bg-white rounded-lg shadow divide-y divide-gray-200 table-auto">
+        <thead class="bg-gray-100">
+          <tr>
+            <th class="px-4 py-2">Supervisado</th>
+            <th class="px-4 py-2">No supervisado</th>
+            <th class="px-4 py-2">Por refuerzo</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-gray-200">
+          <tr>
+            <td class="px-4 py-2">El algoritmo se entrena con datos etiquetados, es decir, con pares de entrada y salida conocidos, aprende a mapear la entrada a la salida.</td>
+            <td class="px-4 py-2">El algoritmo se entrena con datos sin etiquetar y debe encontrar patrones ocultos, estructuras o agrupaciones (clustering) por sí mismo.</td>
+            <td class="px-4 py-2">El algoritmo aprende a tomar decisiones mediante un proceso de prueba y error en un entorno dinámico, recibiendo "recompensas" por las acciones correctas y "castigos" por las incorrectas.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 class="text-xl font-semibold">Usos del Machine Learning</h3>
+    <ul class="list-disc list-inside space-y-1">
+      <li><strong>Algoritmo de Recomendación:</strong> Predicciones personalizadas en streaming y comercio.</li>
+      <li><strong>Visión Artificial:</strong> Reconocimiento facial, etiquetado automático de fotos y análisis de imágenes médicas.</li>
+      <li><strong>Análisis Predictivo:</strong> Predicción de tendencias de mercado y fallos en maquinaria.</li>
+    </ul>
+  </section>
+
+  <!-- Tecnologías Emergentes -->
+  <section id="seccion-tecnologia-emergentes" class="space-y-6">
+    <h2 class="text-2xl font-bold">Tecnologías Emergentes</h2>
+
+    <h3 class="text-xl font-semibold">Realidad Virtual (RV) y Realidad Aumentada (RA)</h3>
+    <figure class="my-4">
+      <img src="REALIDAD_VIRTUAL.png" alt="RV y RA" class="mx-auto rounded shadow-lg w-full max-w-sm" loading="lazy">
+    </figure>
+    <div class="overflow-x-auto">
+      <table class="min-w-full bg-white rounded-lg shadow divide-y divide-gray-200 table-auto">
+        <thead class="bg-gray-100">
+          <tr>
+            <th class="px-4 py-2">RV</th>
+            <th class="px-4 py-2">RA</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-gray-200">
+          <tr>
+            <td class="px-4 py-2">Tecnología que crea un mundo virtual completamente simulado por ordenador.</td>
+            <td class="px-4 py-2">Tecnología que superpone elementos virtuales (imágenes, datos, gráficos) sobre el mundo real, mejorando la percepción del entorno.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 class="text-xl font-semibold">Blockchain</h3>
+    <figure class="my-4">
+      <img src="BLOCKCHAIN.png" alt="Blockchain" class="mx-auto rounded shadow-lg w-full max-w-sm" loading="lazy">
+    </figure>
+    <div class="overflow-x-auto">
+      <table class="min-w-full bg-white rounded-lg shadow divide-y divide-gray-200 table-auto">
+        <thead class="bg-gray-100">
+          <tr>
+            <th class="px-4 py-2">¿Qué es?</th>
+            <th class="px-4 py-2">¿Cómo funciona?</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-gray-200">
+          <tr>
+            <td class="px-4 py-2">Es un libro de contabilidad digital, distribuido e inmutable que registra transacciones o cualquier tipo de activo (tangible o intangible) de forma segura y cronológica.</td>
+            <td class="px-4 py-2">La información se organiza en bloques que están enlazados criptográficamente (mediante un hash). Una vez que un bloque se añade a la cadena y es verificado por los nodos de la red (red descentralizada), no puede ser modificado.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 class="text-xl font-semibold">Internet de las Cosas (IoT)</h3>
+    <div class="overflow-x-auto">
+      <table class="min-w-full bg-white rounded-lg shadow divide-y divide-gray-200 table-auto">
+        <thead class="bg-gray-100">
+          <tr>
+            <th class="px-4 py-2">¿Qué es?</th>
+            <th class="px-4 py-2">¿Cómo funciona?</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-gray-200">
+          <tr>
+            <td class="px-4 py-2">Es la red de dispositivos físicos conectados a Internet (que no son computadoras tradicionales), que incorporan hardware de cómputo para recopilar y transferir datos.</td>
+            <td class="px-4 py-2">Los dispositivos IoT (sensores, cámaras, electrodomésticos) recopilan datos de su entorno y los transmiten a la nube o a otros dispositivos. A menudo, utilizan la IA/ML para analizar esos datos y tomar decisiones inteligentes 
+                  (ej. ajustar la calefacción).</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="text-center">
+      Conoce más sobre Blockchain en la
+      <a href="https://es.wikipedia.org/wiki/Cadena_de_bloques" target="_blank"target="_blank" class="text-blue-600 hover:underline"> entrada de Wikipedia</a> o revisa la guía educativa de
+      <a href="https://www.ibm.com/topics/what-is-blockchain" target="_blank"target="_blank" class="text-blue-600 hover:underline"> IBM sobre Blockchain
+       </a>
+    </p>
+
+    <div class="aspect-w-16 aspect-h-9">
+      <iframe src="https://www.youtube.com/embed/fWrY571yHYI" title="Video IoT" allowfullscreen class="w-full h-64 md:h-96 rounded"></iframe>
+    </div>
+  </section>
+  <!-- Tendencias 2025 -->
+  <section id="seccion-tendencias" class="space-y-6">
+    <h2 class="text-2xl font-bold text-center">Tendencias 2025</h2>
+
+    <div class="overflow-x-auto">
+      <table class="min-w-full bg-white rounded-lg shadow divide-y divide-gray-200 table-auto">
+        <thead class="bg-gray-100">
+          <tr>
+            <th class="px-4 py-2">Agentes de IA</th>
+            <th class="px-4 py-2">Computación Cuántica</th>
+            <th class="px-4 py-2">Realidad Extendida</th>
+            <th class="px-4 py-2">Ciberseguridad IA</th>
+            <th class="px-4 py-2">IoT + 5G/6G</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-gray-200">
+          <tr>
+            <td class="px-4 py-2">Sistemas de IA autónomos capaces de planificar y ejecutar tareas complejas.</td>
+            <td class="px-4 py-2">Procesamiento exponencialmente más rápido para simulaciones avanzadas.</td>
+            <td class="px-4 py-2">Experiencias inmersivas integradas en el trabajo, formación y comercio.</td>
+            <td class="px-4 py-2">IA usada para detectar amenazas y anomalías en tiempo real.</td>
+            <td class="px-4 py-2">Conectividad ultrarrápida para ciudades inteligentes y conducción autónoma.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="aspect-w-16 aspect-h-9 max-w-4xl mx-auto my-4">
+      <iframe src="https://www.youtube.com/embed/CpSvDAe5zZU" title="Video Tendencias 2025" allowfullscreen class="w-full h-64 md:h-96 rounded"></iframe>
+    </div>
+
+    <p class="text-center">
+      Lee más sobre las tendencias tecnológicas en el
+      <a href="https://www.gartner.com/en/articles/top-strategic-technology-trends" target="_blank" class="text-blue-600 hover:underline">informe de Gartner</a>
+      o consulta el análisis de
+      <a href="https://www.weforum.org/agenda/archive/technology" target="_blank" class="text-blue-600 hover:underline">World Economic Forum – Tecnología</a>.
+    </p>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="space-y-4">
+    <h2 class="text-2xl font-bold text-center">Contacto</h2>
+    <p class="text-center">Si deseas más información sobre nuestro proyecto o tienes alguna sugerencia, completa el siguiente formulario:</p>
+
+    <form action="#" method="post" class="max-w-lg mx-auto bg-white p-6 rounded-lg shadow space-y-4">
+      <label for="nombre" class="block font-medium">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" class="w-full p-2 border rounded" required>
+
+      <label for="email" class="block font-medium">Correo electrónico:</label>
+      <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" class="w-full p-2 border rounded" required>
+
+      <label for="mensaje" class="block font-medium">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." class="w-full p-2 border rounded" required></textarea>
+
+      <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Enviar</button>
+    </form>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="bg-gray-800 text-white text-center p-6 mt-12">
+  <p>© 2025 Portal de Tecnologías Emergentes - Todos los derechos reservados</p>
+  <p>Desarrollado por: Grupo N2</p>
+  <p><a href="#main" class="hover:text-yellow-400">Volver al inicio</a></p>
+</footer>
+
+</body>
+</html>
+
